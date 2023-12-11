@@ -1,0 +1,142 @@
+body{
+    margin:100px;
+    border: solid 4px black;
+    border-radius: 15px;
+}
+
+header div{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header main{
+    color: aliceblue;
+    padding-left: 100px;
+    font-size: larger;
+}
+
+header main p{
+    padding-top: 40px;
+}
+
+header{
+    padding-left:  450px;
+    background-color: black;
+    height: 40vh;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img{
+    height: 310px;
+    width: 290px;
+    padding-bottom: 10px;
+}
+
+/* section gauche */
+
+aside{
+    background-image: linear-gradient(rgb(66, 66, 66),rgb(221, 221, 221));
+    border-bottom-left-radius: 15px;
+    width: 350px;
+    height: 100%; 
+    float: left;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+aside main{
+    font-size: 21px;
+}
+
+aside p{
+    align-items: center;
+}
+
+ul p{
+    padding-left: 15px;
+}
+
+main li{
+    list-style: none;
+}
+
+main div img{
+    width:40px;
+    height: 40px;
+    padding-bottom: 30px;
+}
+
+main div li{
+    align-items: center;
+    display: flex;
+    padding-bottom: 10px;
+    padding-right: 15px;
+}
+
+main a{
+    text-decoration: none;
+    color: black;
+}
+
+main li{
+    padding-bottom: 5px;
+    padding-right: 15px
+}
+
+main a:hover{
+    color: aliceblue;
+}
+
+main h3{
+    padding-bottom: 15px;
+}
+
+img{
+    width: 125px;
+    height: 125px;
+    margin: 10px;
+    padding-top: 10px;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+img:hover {
+	-webkit-transform: scale(1.15);
+	transform: scale(1.15);
+}
+
+/* section de droite */
+
+section{
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+footer{
+    padding-left: 450px;
+    font-size: large;
+}
+
+footer h2{
+    padding-bottom: 25px;
+}
+
+footer h2 i{
+    color:black ;
+}
+
+footer h4{
+    padding-bottom: 2px;
+}
+
+footer p{
+    color: rgb(163, 141, 141);
+}
+
+footer i{
+    color: rgb(77, 175, 175);
+}
